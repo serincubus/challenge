@@ -1,4 +1,4 @@
-# books-challenge
+# challenge
 Aplicación basada en Express + EJS para la practica de ejercicios de CRUD
 
 ## Levantando la app
@@ -32,4 +32,4 @@ La app tiene 3 secciones principales
    - Utilizar cookies para recordar el usuario logueado.
    - Distinguir entre usuarios estandar y administradores cuando corresponda según lo mencionado en puntos anteriores.
    - Implementar la lógica para desloguearse
-# challenge
+
