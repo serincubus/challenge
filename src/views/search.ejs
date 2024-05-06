@@ -22,10 +22,11 @@
         </div>
       </form>
 
-
+     <% books.forEach(book =>{ %>
     <div class="list-group">
-      
+      <p><%= book.title %></p>
     </div>
+     <% }) %>
   </div>
 </div>
 

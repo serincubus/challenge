@@ -34,5 +34,15 @@ module.exports = (sequelize, dataTypes) => {
     });
   };
 
-  return Book;
-};
+
+/*Book.associate = function (models){
+  Book.hasMany(models.BooksAuthors,{
+    as:'BooksAuthors',
+    foreingKey:'BookId',
+    otherKey:'authors',
+    timestamps:false
+
+  })
+};*/
+return Book;
+}
